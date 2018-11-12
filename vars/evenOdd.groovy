@@ -10,6 +10,7 @@ def call(int buildNumber) {
             script { 
               log.info 'Starting even build'
               log.warning 'Nothing to do!'
+              log.error 'error!'
             }
           }
         }
